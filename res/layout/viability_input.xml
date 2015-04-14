@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4FAFD"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_h"
+            android:background="#1A7CB1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="VIABILITY MODEL"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/title_s" />
+
+            <ImageView
+                android:id="@+id/viabilityInput_back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/actionbar_back_p_tbr"
+                android:paddingLeft="@dimen/actionbar_back_p_l"
+                android:paddingRight="@dimen/actionbar_back_p_tbr"
+                android:paddingTop="@dimen/actionbar_back_p_tbr"
+                android:src="@drawable/back_icon" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/pulInput_scroll_p" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Record Name"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <EditText
+                        android:id="@+id/viabilityInput_et1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Maternal age (years)"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <EditText
+                        android:id="@+id/viabilityInput_et2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Bleeding score (PBAC score)"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <Spinner
+                        android:id="@+id/viabilityInput_spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Presence of fetal heartbeat"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/viabilityInput_yes_tv"
+                            android:layout_width="@dimen/pulInput_yesNo_wh"
+                            android:layout_height="@dimen/pulInput_yesNo_wh"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_blue"
+                            android:gravity="center"
+                            android:text="YES"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/pulInput_s" />
+
+                        <TextView
+                            android:id="@+id/viabilityInput_no_tv"
+                            android:layout_width="@dimen/pulInput_yesNo_wh"
+                            android:layout_height="@dimen/pulInput_yesNo_wh"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_blue"
+                            android:gravity="center"
+                            android:text="NO"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/pulInput_s" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Mean gestational sac size (mm)"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <EditText
+                        android:id="@+id/viabilityInput_et5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pulInput_m"
+                        android:layout_weight="2"
+                        android:text="Mean yolk sac diameter (mm)"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <EditText
+                        android:id="@+id/viabilityInput_et6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pulInput_m"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:maxLength="3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulInput_s_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pulInput_row_h"
+                    android:layout_marginBottom="@dimen/pulOutput_row1_m_t"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/viabilityInput_clearData_bt"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/pulInput_button_m"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_cleardata"
+                        android:singleLine="true"
+                        android:text="CLEAR DATA"
+                        android:textColor="#212121"
+                        android:textSize="@dimen/pulInput_s" />
+
+                    <Button
+                        android:id="@+id/viabilityInput_result_bt"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/pulInput_button_m"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_start"
+                        android:singleLine="true"
+                        android:text="RESULT"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/pulInput_s" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<resources>
+
+    <dimen name="actionbar_h">28dp</dimen>
+    <dimen name="title_s">16sp</dimen>
+    <dimen name="actionbar_back_p_tbr">6dp</dimen>
+    <dimen name="actionbar_back_p_l">0dp</dimen>
+    <!-- home -->
+    <dimen name="home_icon_p_t">40dp</dimen>
+    <dimen name="home_name_s">28sp</dimen>
+    <dimen name="home_name_m_t">5dp</dimen>
+    <dimen name="home_result_s">20sp</dimen>
+    <dimen name="home_m_lr_start">50dp</dimen>
+    <dimen name="home_m_b_start">20dp</dimen>
+    <dimen name="home_start_s">20sp</dimen>
+    <!-- disclaimer -->
+    <dimen name="disclaimer_button_w">160dp</dimen>
+    <dimen name="disclaimer_button_h">40dp</dimen>
+    <dimen name="disclaimer_button_m_t">8dp</dimen>
+    <dimen name="disclaimer_button_m_b">16dp</dimen>
+    <dimen name="disclaimer_button_s">16sp</dimen>
+    <dimen name="disclaimer_p">16dp</dimen>
+    <dimen name="disclaimer_infor_s">14sp</dimen>
+    <!-- select model -->
+    <dimen name="selectModel_button_w">160dp</dimen>
+    <dimen name="selectModel_button_h">40dp</dimen>
+    <dimen name="selectModel_button_s">16sp</dimen>
+    <dimen name="selectModel_button_m_t">30dp</dimen>
+    <dimen name="selectModel_infor_w">260dp</dimen>
+    <dimen name="selectModel_infor_h">100dp</dimen>
+    <dimen name="selectModel_infor_s">16sp</dimen>
+    <dimen name="selectModel_infor_m_t">5sp</dimen>
+    <dimen name="selectModel_infor_p">5dp</dimen>
+    <!-- pul model m6 input -->
+    <dimen name="pulInput_scroll_p">10dp</dimen>
+    <dimen name="pulInput_row_h">60dp</dimen>
+    <dimen name="pulInput_s">16sp</dimen>
+    <dimen name="pulInput_s_hint">14sp</dimen>
+    <dimen name="pulInput_m">3dp</dimen>
+    <dimen name="pulInput_yesNo_wh">35dp</dimen>
+    <dimen name="pulInput_button_m">10dp</dimen>
+    <!-- pul model m6 output -->
+    <dimen name="pulOutput_scroll_p">10dp</dimen>
+    <dimen name="pulOutput_row1_h">20dp</dimen>
+    <dimen name="pulOutput_row1_m_t">20dp</dimen>
+    <dimen name="pulOutput_row_m_t">5dp</dimen>
+    <dimen name="pulOutput_row_p">5dp</dimen>
+    <dimen name="pulOutput_s">16sp</dimen>
+    <dimen name="pulOutput_pieChart_h">200dp</dimen>
+    <dimen name="pulOutput_pieChart_p">15dp</dimen>
+    <dimen name="pulOutput_pieChart_m">12dp</dimen>
+    <!-- result -->
+    <dimen name="result_home_p_tb">6dp</dimen>
+    <dimen name="result_home_p_l">-12dp</dimen>
+    <dimen name="result_addMore_p_tb">6dp</dimen>
+    <dimen name="result_addMore_p_r">-8dp</dimen>
+    <dimen name="result_lv_m">12dp</dimen>
+    <dimen name="result_lv_dividerHeight">20dp</dimen>
+    <dimen name="result_item_name_h">30dp</dimen>
+    <dimen name="resultItem_name_s">14sp</dimen>
+    <dimen name="resultItem_infor_s">12sp</dimen>
+    <dimen name="resultItem_infor_p">8dp</dimen>
+    <dimen name="result_mail_w">30dp</dimen>
+    <dimen name="result_mail_h">20dp</dimen>
+    <dimen name="result_add_sub_wh">20dp</dimen>
+    <dimen name="result_add_m">8dp</dimen>
+    <dimen name="result_sub_m_tl">8dp</dimen>
+    <dimen name="result_sub_m_r">8dp</dimen>
+
+</resources>

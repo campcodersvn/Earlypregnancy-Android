@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4FAFD"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_h"
+            android:background="#1A7CB1" >
+
+            <ImageView
+                android:id="@+id/result_home_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/result_home_p_tb"
+                android:paddingLeft="@dimen/result_home_p_l"
+                android:paddingTop="@dimen/result_home_p_tb"
+                android:src="@drawable/home_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="RESULT"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/title_s" />
+
+            <ImageView
+                android:id="@+id/result_add_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/result_addMore_p_tb"
+                android:paddingRight="@dimen/result_addMore_p_r"
+                android:paddingTop="@dimen/result_addMore_p_tb"
+                android:src="@drawable/add_more_icon" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/result_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/result_lv_m"
+            android:background="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/result_lv_dividerHeight"
+            tools:listitem="@layout/item_result" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

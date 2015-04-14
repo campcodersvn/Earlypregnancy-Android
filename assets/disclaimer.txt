@@ -1,0 +1,77 @@
+Software License Agreement For Non-Commercial Research Purposes (hereinafter “Agreement”)
+
+This test model/software is experimental in nature and is the result of academic research. Health related information changes frequently and therefore information contained in the  test model/software may be outdated, incomplete or incorrect.
+
+This test model/software can only be used by medical practitioners  within the scope of their internal research activities.
+
+This test model/software is not intended to be used and may not be used as a substitute for medical advice, diagnosis, prevention, monitoring or treatment of any health condition or problem.
+
+When using the Software you agree that the Software is supplied by KU LEUVEN  for non-commercial testing purposes within the scope of your research activities. You acknowledge and agree that the software has neither been validated nor released for clinical use. you hereby explicitly agree that The results of the software cannot be used for clinical interpretation or physician services.
+
+This Software is developed by bvba Apps Only, 3000 Leuven, Sluisstraat 79/03.01 and is owned by the Katholieke Universiteit Leuven (hereinafter referred to as “KU LEUVEN").
+
+Article 1 - Definitions			
+
+1.1 “Software” shall mean the following KU LEUVEN's computer program in executable version: Early pregnancy App v1.0 to i) estimate the probability of viability of an intra-uterine pregnancy of uncertain viability (IPUV) or ii) estimate the probability that a pregnancy of unknown location (PUL) is a Failed PUL, intra-uterine pregnancy, or ectopic pregnancy
+
+1.2 “Effective Date" shall mean the date on which you download or install the Software and associated files on your system.
+
+1.3 “Purpose” shall mean non-commercial testing purposes by medical practitioners within the scope of their internal research activities excluding clinical use or  use of the software for clinical interpretation or physician services, such as but not limited to medical advice, diagnosis, prevention, monitoring or treatment of any health condition or problem.
+
+1.4 “Non-commercial User” shall mean a medical practitioner  using the Software for the Purpose on its own behalf or on behalf of a legal entity.
+
+Article 2 - License
+
+2.1 As long as you qualify as an  Non-commercial User, KU LEUVEN hereby grants you a non-exclusive, non-transferable license to the Software supplied by KU LEUVEN for the Purpose. 
+
+2.2 You shall not sublicense any of your rights to the Software. Neither will you transfer the Software to a third party, unless prior written agreement of KU LEUVEN has been obtained. 
+
+Article 3 - Ownership
+
+3.1 The Software is copyrighted and KU LEUVEN retains all title and ownership to the Software. Nothing in this Agreement shall preclude KU LEUVEN from entering into agreements with third parties concerning the Software.
+
+3.2 By using the Software, you do not acquire any intellectual property right to the software or any part thereof, nor do you acquire any license or other rights under any patents, patent applications, trade secrets or other proprietary rights of KU LEUVEN, except as expressly granted herein.
+
+Article 4 - Publication
+
+Non-commercial User shall acknowledge KU LEUVEN as the owner of the Software.
+
+Article 5 - Feedback 
+
+You are encouraged to provide KU LEUVEN with feedback on the Software as used in compliance with the Purpose. KU LEUVEN is permitted to use any information provided by you  in making changes to the Software. All reports shall be sent to Mr.  Ben Van Calster - ben.vancalster@med.kuleuven.be
+
+Article 6 - No Support
+
+This license does not entitle you to receive from KU LEUVEN technical support, telephone assistance, or enhancements or updates to the Software. Any support that may be given by KU LEUVEN on voluntary basis is provided "as is" and KU LEUVEN makes no representations or warranties of any type whatsoever, express or implied, regarding the provided support. 
+
+Article 7 - Warranty
+
+7.1 The Software is provided "as is" by KU LEUVEN without warranty of any kind, whether express or implied.  KU LEUVEN specifically disclaims the implied warranties of merchantability and fitness for a particular purpose or that the use of the Software will not infringe any patents, copyrights or trademarks or other rights of third parties. The entire risk as to the quality and performance of the Software is borne by you.
+
+7.2 Without prejudice to KU LEUVEN’s liability for damages caused by KU LEUVEN’s willful misconduct, KU LEUVEN shall not be liable for any loss, direct or indirect damage or other liability incurred by you or any third party in connection with the Software licensed by KU LEUVEN under this Agreement. Under no circumstances shall KU LEUVEN be liable for any direct, indirect, special, incidental, or consequential damages arising out of any performance of this Agreement, whether such damages are based on contract, tort or any other legal theory. 
+
+This test model is experimental in nature and is the result of academic research. Health related information changes frequently and therefore information contained in the test model may be outdated, incomplete or incorrect.
+
+This test model/software can only be used by  medical practitioners  within the scope of their internal research activities.
+
+This test model is not intended to be used and may not be used as a substitute for medical advice, diagnosis, prevention, monitoring or treatment of any health condition or problem.
+
+When using the Software you agree that the Software is supplied by KU LEUVEN for non-commercial testing purposes within the scope of your research activities. You acknowledge and agree that the software has neither been validated nor released for clinical use. you hereby explicitly agree that The results of the software cannot be used for clinical interpretation or physician services.
+
+Article 8 - Indemnification
+
+You will indemnify, defend and hold harmless KU LEUVEN, its directors, officers, employees and agents from and against all liability, losses, damages and expenses (including attorney's fees and costs) arising out of any claims, demands, actions or other proceedings made or instituted by any third party against any of them and arising out of or relating to any breach of this Agreement by you, or any use or disclosure of the Software by you, unless such claims or liability result from KU LEUVEN’s  willful misconduct. 
+
+Article 9 - Term
+
+9.1 This Agreement is effective from the Effective Date until you delete the Software and any and all related files from your computing system. This Agreement will terminate immediately without notice from KU LEUVEN if you fail to comply with any provision of this Agreement. Upon termination, you must destroy all copies of the software and its documentation.
+
+9.2 In case of termination the provisions of Article 3, 4, 7, and 8 shall remain in full force and effect.
+
+Article 10 - Miscellaneous  10.1 Any notice authorized or required to be given to KU LEUVEN under this Agreement shall be in writing and shall be deemed to be duly given if sent by registered post to: KU LEUVEN R&D, Waaistraat 6, B-3000 Leuven, Belgium. 
+
+10.2 The terms and conditions herein contained constitute the entire agreement between the Parties and supersede all previous agreements and understandings, whether oral or written, between the parties hereto with respect to the subject matter thereof.
+
+Article 11 - Disputes
+
+In the event of disputes in the interpretation and/or performance of this Agreement, the parties shall first undertake to settle their differences amicably. If no amicable settlement can be reached concerning the execution and/or interpretation of this Agreement, such conflict shall be brought before the courts of Leuven and Belgian Law shall be applicable. 

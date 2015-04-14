@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:paddingBottom="@dimen/pulInput_m"
+    android:paddingTop="@dimen/pulInput_m"
+    android:scrollHorizontally="true"
+    android:singleLine="true"
+    android:textColor="#515252"
+    android:textSize="@dimen/pulInput_s_hint" />

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4FAFD"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_h"
+            android:background="#1A7CB1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="SELECT MODE"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/title_s" />
+
+            <ImageView
+                android:id="@+id/selectModel_back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/actionbar_back_p_tbr"
+                android:paddingLeft="@dimen/actionbar_back_p_l"
+                android:paddingRight="@dimen/actionbar_back_p_tbr"
+                android:paddingTop="@dimen/actionbar_back_p_tbr"
+                android:src="@drawable/back_icon" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/selectModel_pulM6_bt"
+            android:layout_width="@dimen/selectModel_button_w"
+            android:layout_height="@dimen/selectModel_button_h"
+            android:layout_marginTop="@dimen/selectModel_button_m_t"
+            android:background="@drawable/background_start"
+            android:text="PUL MODEL M6"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/selectModel_button_s" />
+
+        <TextView
+            android:layout_width="@dimen/selectModel_infor_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/selectModel_infor_m_t"
+            android:background="#DFF5FE"
+            android:gravity="left|top"
+            android:padding="@dimen/selectModel_infor_p"
+            android:text="Risk model to predict the outcome of pregnancies of unknown location (PUL)."
+            android:textColor="#5B5B5B"
+            android:textSize="@dimen/selectModel_infor_s" />
+
+        <Button
+            android:id="@+id/selectModel_viability_bt"
+            android:layout_width="@dimen/selectModel_button_w"
+            android:layout_height="@dimen/selectModel_button_h"
+            android:layout_marginTop="@dimen/selectModel_button_m_t"
+            android:background="@drawable/background_start"
+            android:text="VIABILITY MODEL"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/selectModel_button_s" />
+
+        <TextView
+            android:layout_width="@dimen/selectModel_infor_w"
+            android:layout_height="@dimen/selectModel_infor_h"
+            android:layout_marginTop="@dimen/selectModel_infor_m_t"
+            android:background="#DFF5FE"
+            android:gravity="left|top"
+            android:padding="@dimen/selectModel_infor_p"
+            android:text="Risk model to predict viability and miscarriage in patients with intrauterine pregnancies of uncertain viability."
+            android:textColor="#5B5B5B"
+            android:textSize="@dimen/selectModel_infor_s" />
+    </LinearLayout>
+
+</RelativeLayout>

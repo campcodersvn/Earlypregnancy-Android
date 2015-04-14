@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4FAFD"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_h"
+            android:background="#1A7CB1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="VIABILITY MODEL"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/title_s" />
+
+            <ImageView
+                android:id="@+id/viabilityOutput_back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/actionbar_back_p_tbr"
+                android:paddingLeft="@dimen/actionbar_back_p_l"
+                android:paddingRight="@dimen/actionbar_back_p_tbr"
+                android:paddingTop="@dimen/actionbar_back_p_tbr"
+                android:src="@drawable/back_icon" />
+
+            <ImageView
+                android:id="@+id/viabilityOutput_result_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/actionbar_back_p_tbr"
+                android:paddingLeft="@dimen/actionbar_back_p_tbr"
+                android:paddingRight="@dimen/actionbar_back_p_l"
+                android:paddingTop="@dimen/actionbar_back_p_tbr"
+                android:src="@drawable/next_icon" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/pulOutput_scroll_p" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pulOutput_row1_m_t"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/pulOutput_row1_h"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/pulOutput_row_p"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:text="Risk Predictions:"
+                        android:textColor="#515252"
+                        android:textSize="@dimen/pulOutput_s"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/viabilityOutput_mail_iv"
+                        android:layout_width="@dimen/result_mail_w"
+                        android:layout_height="@dimen/result_mail_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="2dp"
+                        android:src="@drawable/mail_icon" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pulOutput_row_m_t"
+                    android:background="#D2E7EF" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="#DFF5FE"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pulOutput_row_p" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center_vertical|left"
+                            android:text="Chance of viable pregnancy"
+                            android:textColor="#218500"
+                            android:textSize="@dimen/pulOutput_s" />
+
+                        <TextView
+                            android:id="@+id/viabilityOutput_result1_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:singleLine="true"
+                            android:text="00.0%"
+                            android:textColor="#218500"
+                            android:textSize="@dimen/pulOutput_s" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pulOutput_row_m_t"
+                    android:background="#D2E7EF" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="#DFF5FE"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pulOutput_row_p" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center_vertical|start"
+                            android:text="Risk of miscarriage"
+                            android:textColor="#1A7CB1"
+                            android:textSize="@dimen/pulOutput_s" />
+
+                        <TextView
+                            android:id="@+id/viabilityOutput_result2_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:singleLine="true"
+                            android:text="00.0%"
+                            android:textColor="#1A7CB1"
+                            android:textSize="@dimen/pulOutput_s" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/pulOutput_row_p"
+                    android:gravity="center" >
+
+                    <!-- <com.example.earlypregnancy.customview.PieChart -->
+                    <!-- android:id="@+id/Pie" -->
+                    <!-- android:layout_width="100dp" -->
+                    <!-- android:layout_height="100dp" -->
+                    <!-- android:layout_centerHorizontal="true" -->
+                    <!-- android:background="@android:color/white" -->
+                    <!-- android:padding="20dp" -->
+                    <!-- custom:highlightStrength="1.12" -->
+                    <!-- custom:labelColor="@android:color/black" -->
+                    <!-- custom:labelHeight="20dp" -->
+                    <!-- custom:labelPosition="left" -->
+                    <!-- custom:labelWidth="110dp" -->
+                    <!-- custom:labelY="85dp" -->
+                    <!-- custom:pieRotation="-90" -->
+                    <!-- custom:pointerRadius="4dp" /> -->
+
+                    <com.example.earlypregnancy.customview.PieChartView
+                        android:id="@+id/viabilityOutput_pieChartView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/pulOutput_pieChart_h"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

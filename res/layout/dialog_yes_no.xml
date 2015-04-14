@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F4FAFD" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/pulInput_button_m" >
+
+        <TextView
+            android:id="@+id/dialogYesNo_msg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pulInput_button_m"
+            android:gravity="center"
+            android:paddingLeft="@dimen/pulInput_button_m"
+            android:paddingRight="@dimen/pulInput_button_m"
+            android:textColor="#515252"
+            android:textSize="@dimen/title_s" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dialogYesNo_yes_tv"
+                android:layout_width="@dimen/pulInput_yesNo_wh"
+                android:layout_height="@dimen/pulInput_yesNo_wh"
+                android:layout_margin="@dimen/pulInput_m"
+                android:background="@drawable/circle_blue"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="YES"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/pulInput_s" />
+
+            <TextView
+                android:id="@+id/dialogYesNo_no_tv"
+                android:layout_width="@dimen/pulInput_yesNo_wh"
+                android:layout_height="@dimen/pulInput_yesNo_wh"
+                android:layout_margin="@dimen/pulInput_m"
+                android:background="@drawable/circle_blue"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="NO"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/pulInput_s" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
